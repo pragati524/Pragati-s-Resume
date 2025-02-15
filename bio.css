@@ -1,0 +1,101 @@
+/* General Styling */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f9fafb; /* Neutral background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(90deg, #004d61, #00b7c2); /* Bold teal gradient */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 4px solid #003344;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Styling */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+main h2 {
+    font-size: 24px;
+    color: #004d61;
+    border-bottom: 3px solid #00b7c2;
+    display: inline-block;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin: 5px 0;
+}
+
+main ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #555;
+}
+
+main ul li {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #004d61;
+    color: #ffffff;
+    padding: 10px 0;
+    font-size: 14px;
+    border-radius: 0 0 10px 10px;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Adjust for phones */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+}
